@@ -57,7 +57,7 @@ function App() {
 
 ## Different data type props
 
-#### String props type
+#### 1.String props type
 
 The data type of the props we pass an attribute to the component is a string.
 
@@ -103,7 +103,7 @@ ReactDOM.render(<App />, rootElement)
 
 ```
 
-#### Number props type
+#### 2.Number props type
 
 Let's use a number props to a component
 
@@ -138,7 +138,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-#### Boolean props type
+#### 3.Boolean props type
 
 We can pass boolean data types to a React component.
 
@@ -172,7 +172,7 @@ ReactDOM.render(<App />, rootElement)
 
 ```
 
-#### Array props type
+#### 4.Array props type
 
 In programming arrays and objects are the most frequently used data structure to solve different problems and store data in a more structured way. Therefore, we encounter data in the form of an array quite often. Let's pass an array as props to a component
 
@@ -192,7 +192,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-#### Object props type
+#### 5. Object props type
 
 We may pass an object as props to a React component. Let's see an example. We can change the previous Header props to object. For the time being let's change a few properties for better understanding.
 
@@ -234,7 +234,7 @@ ReactDOM.render(<App />, rootElement)
 
 ```
 
-#### Function prop types
+#### 6. Function prop types
 
 We can pass a function as props type to a React component. Let's see some examples
 
