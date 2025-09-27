@@ -22,3 +22,24 @@ React is one of the most popular JavaScript libraries. Many developers and compa
 If you face an issue, chances are someone has already solved it.
 
 **In-Demand Skill** - eact is one of the most popular JavaScript libraries for front-end development.Learning it boosts your career opportunities.
+
+## What is JSX ?
+
+JSX stands for JavaScript XML.JSX allows us to write HTML elements with JavaScript code. An HTML element has an opening and closing tags, content, and attribute in the opening tag.
+
+```jsx
+import React from "react";
+
+function Welcome() {
+  const name = "Rashmika";
+
+  return (
+    <div>
+      <h1>Hello, {name}!</h1>
+      <p>Welcome to learning React with JSX.</p>
+    </div>
+  );
+}
+
+export default Welcome;
+```
