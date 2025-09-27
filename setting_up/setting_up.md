@@ -30,3 +30,40 @@ Before you can create a React project using Create React App (CRA), Vite, or any
 ###### 3. Web Browser
 
 - Modern browsers like Chrome, Firefox, or Edge are required to view and test your React apps.
+
+## Creating a React Project with Vite
+
+Vite is a modern and fast tool for setting up React projects. It automatically creates a ready-to-use project structure with all the necessary configurations, allowing you to start coding immediately. With Vite, you get a lightweight development environment, a fast development server, and hot module replacement, so any changes you make in your code are instantly reflected in the browser.
+
+### 1. Create a New React Project
+
+Open your terminal and run:
+
+```bash
+npm create vite@latest my-app
+```
+
+- my-app is the folder name for your project.
+- Vite will ask you to select a framework → choose React.
+- Then it will ask for JavaScript or TypeScript → choose according to your preference.
+
+### 2. Move into the Project Folder
+
+```bash
+cd my-app
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+- This starts a local development server.
+- The terminal will show a URL (usually http://localhost:5173) where you can see your React app live.
