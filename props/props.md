@@ -107,6 +107,8 @@ ReactDOM.render(<App />, rootElement)
 
 Let's use a number props to a component
 
+As you can see from the above string props example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
+
 ```bash
 import React from 'react'
 import ReactDOM from 'react-dom'
