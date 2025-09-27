@@ -12,23 +12,13 @@ To summarize:
 
 React is one of the most popular JavaScript libraries. Many developers and companies have been using it for the last couple of years. Its popularity has been growing fast and it has a huge community.Here’s why developers love it:
 
-**Component-Based**
+**Component-Based** - React breaks your UI into small, reusable pieces called components. This makes your code cleaner, easier to debug, and faster to build.
 
-React breaks your UI into small, reusable pieces called components. This makes your code cleaner, easier to debug, and faster to build.
+**Virtual DOM** - React uses a virtual version of the browser’s DOM to update only what’s needed. This makes apps run smoother and faster.
 
-**Virtual DOM**
+**Cross-Platform** - Learn React once, and you can build Web apps with React,Mobile apps with,React Native,Full-stack apps with frameworks like Next.js
 
-React uses a virtual version of the browser’s DOM to update only what’s needed. This makes apps run smoother and faster.
-
-**Cross-Platform**
-
-Learn React once, and you can build Web apps with React,Mobile apps with,React Native,Full-stack apps with frameworks like Next.js
-
-**Huge Community & Ecosystem**
-
-Tons of tutorials, libraries, and tools available.
+**Huge Community & Ecosystem** - Tons of tutorials, libraries, and tools available.
 If you face an issue, chances are someone has already solved it.
 
-**In-Demand Skill**
-
-eact is one of the most popular JavaScript libraries for front-end development.Learning it boosts your career opportunities.
+**In-Demand Skill** - eact is one of the most popular JavaScript libraries for front-end development.Learning it boosts your career opportunities.
