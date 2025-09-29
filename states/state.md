@@ -26,3 +26,40 @@ function Counter() {
 export default Counter;
 
 ```
+
+Here, count is the state value and setCount updates it. Calling setCount triggers a re-render with the new value.
+
+## State with Objects
+
+```bash
+import React, { useState } from "react";
+
+function Profile() {
+  // Declare a state variable 'user' and a setter function 'setUser'
+  // Initial state is an object with name "John" and age 25
+  const [user, setUser] = useState({ name: "John", age: 25 });
+
+  // Function to increase the age by 1
+  // Spread operator '...user' keeps other properties unchanged
+  const increaseAge = () => {
+    setUser({ ...user, age: user.age + 1 });
+  };
+
+  return (
+    <div>
+      {/* Display the user's name */}
+      <h2>{user.name}</h2>
+
+      {/* Display the user's age */}
+      <h3>{user.age}</h3>
+
+      {/* Button to trigger increaseAge function */}
+      <button onClick={increaseAge}>Increase Age</button>
+    </div>
+  );
+}
+
+export default Profile;
+
+
+```
