@@ -37,10 +37,12 @@ import React, { useState } from "react";
 function Profile() {
   // Declare a state variable 'user' and a setter function 'setUser'
   // Initial state is an object with name "John" and age 25
+
   const [user, setUser] = useState({ name: "John", age: 25 });
 
   // Function to increase the age by 1
   // Spread operator '...user' keeps other properties unchanged
+
   const increaseAge = () => {
     setUser({ ...user, age: user.age + 1 });
   };
