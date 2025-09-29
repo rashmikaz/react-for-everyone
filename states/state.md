@@ -61,5 +61,39 @@ function Profile() {
 
 export default Profile;
 
+```
+
+## State with Arrays
+
+```bash
+import React, { useState } from "react";
+
+function TodoList() {
+  // Declare a state variable 'todos' as an array
+  // Initial state contains one item: "Learn React"
+  const [todos, setTodos] = useState(["Learn React"]);
+
+  // Function to add a new todo
+  // We use the spread operator to include existing todos and add "Learn State"
+  const addTodo = () => {
+    setTodos([...todos, "Learn State"]);
+  };
+
+  return (
+    <div>
+      {/* Display all todos in a list */}
+      <ul>
+        {todos.map((todo, index) => (
+          <li key={index}>{todo}</li> // Each list item needs a unique key
+        ))}
+      </ul>
+
+      {/* Button to add a new todo */}
+      <button onClick={addTodo}>Add Todo</button>
+    </div>
+  );
+}
+
+export default TodoList;
 
 ```
